@@ -29,4 +29,4 @@ select *from student where marks>(select avg(marks) from student);
 
 select * from student order by marks desc limit 1 offset n-1;
 
-select 
+ 
